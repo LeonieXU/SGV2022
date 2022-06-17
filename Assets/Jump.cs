@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-    // public float jumpForce;
+    public float jumpForce = 100;
     // public float timeBetweenJumps;
     // private float timeBetweenJumpsCount;
-    public float velocity = 10;
+    // public float speed;
     private Rigidbody2D rb;
     // private bool canJump;
     
@@ -24,9 +24,10 @@ public class Jump : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
-        rb.AddForce(Vector2.up * velocity, ForceMode2D.Impulse);
+        // rb.AddForce(Vector2.up * speed, ForceMode2D.Impulse);
+        rb.velocity = new Vector3(0,jumpForce,0);
         
         }
         
