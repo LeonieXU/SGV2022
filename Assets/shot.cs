@@ -36,7 +36,7 @@ public class shot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.tag == "End")
+        if(other.tag == "Saw")
         {
             _spriteRenderer.enabled = false;
             _Collider2D.enabled = false;
