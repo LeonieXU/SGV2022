@@ -1106,10 +1106,10 @@ TextureImporter:
       name: pirates.v1_47
       rect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 192
-        width: 16
-        height: 16
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3601,6 +3601,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: pirates.v1_166
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 208
+        width: 24
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dcf559a42d90142b031bc286c597f2
+      internalID: -999231171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3675,17 +3696,17 @@ TextureImporter:
       pirates.v1_43: -1815921171
       pirates.v1_159: -1025253805
       pirates.v1_113: 1844359523
-      pirates.v1_48: 38052721
       pirates.v1_142: 1598625757
-      pirates.v1_22: -1728313028
-      pirates.v1_27: 243328228
-      pirates.v1_6: 875111265
-      pirates.v1_41: 166109798
-      pirates.v1_151: -1781639714
       pirates.v1_157: -565458603
+      pirates.v1_22: -1728313028
+      pirates.v1_151: -1781639714
+      pirates.v1_41: 166109798
       pirates.v1_92: 1419989581
+      pirates.v1_27: 243328228
       pirates.v1_21: 572710993
       pirates.v1_165: -643259202
+      pirates.v1_6: 875111265
+      pirates.v1_48: 38052721
       pirates.v1_40: 2051888415
       pirates.v1_86: 1493141900
       pirates.v1_83: -1317229345
@@ -3693,11 +3714,12 @@ TextureImporter:
       pirates.v1_75: -1756195023
       pirates.v1_122: -1029611049
       pirates.v1_60: 2090844441
+      pirates.v1_166: -999231171
       pirates.v1_90: 327553609
       pirates.v1_132: -1386299256
       pirates.v1_28: 1066217782
-      pirates.v1_120: 507057926
       pirates.v1_128: -1161090020
+      pirates.v1_120: 507057926
       pirates.v1_49: 905545004
       pirates.v1_88: -608209589
       pirates.v1_44: 679963993
