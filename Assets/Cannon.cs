@@ -20,11 +20,4 @@ public class Cannon : MonoBehaviour
          
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        if(other.tag == "Player" && Loadingbar.gameObject != null)
-        {
-            Loadingbar.SetActive(true);
-        }
-    }
 }
