@@ -26,8 +26,8 @@ public class playerController : MonoBehaviour
 
     private bool isPlayerstatic = false;
     private Animator anim;
-    public float Timer = 2.0f;
-    public float settime = 2.0f;
+    public float Timer = 3.0f;
+    public float settime = 3.0f;
     public GameObject interaction1;
     
 

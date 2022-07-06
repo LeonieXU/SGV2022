@@ -6230,7 +6230,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 74ba9b1da4a133645ba96a884cb11237, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6813,7 +6813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8663aeaa24c4de64b9c4e16e62ea9fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 1
   _Image: {fileID: 974585121}
   targetProcess: 100
   leftMouse: {fileID: 308833896}
@@ -7549,8 +7549,8 @@ MonoBehaviour:
   speed: 6
   maxTime: 1
   Score: {fileID: 578047022}
-  Timer: 2
-  settime: 2
+  Timer: 3
+  settime: 3
   interaction1: {fileID: 532517670}
 --- !u!1 &1413570378
 GameObject:

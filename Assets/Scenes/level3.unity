@@ -305,8 +305,8 @@ MonoBehaviour:
   speed: 6
   maxTime: 1
   Score: {fileID: 317475936}
-  Timer: 2
-  settime: 2
+  Timer: 3
+  settime: 3
   interaction1: {fileID: 0}
 --- !u!58 &43284995
 CircleCollider2D:
@@ -4802,7 +4802,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ef2edd2e2b4fa9c49b8206266e52df31, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0

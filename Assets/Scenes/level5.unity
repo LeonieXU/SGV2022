@@ -8114,7 +8114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8663aeaa24c4de64b9c4e16e62ea9fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 4
   _Image: {fileID: 652854854}
   targetProcess: 100
   leftMouse: {fileID: 1967406787}
@@ -10648,7 +10648,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -11592,7 +11592,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4ea47c8fd78f79d4b80e4971e92a492c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -12550,8 +12550,8 @@ MonoBehaviour:
   speed: 6
   maxTime: 1
   Score: {fileID: 1600830029}
-  Timer: 2
-  settime: 2
+  Timer: 3
+  settime: 3
   interaction1: {fileID: 39616203}
 --- !u!1 &1574961525
 GameObject:
@@ -15136,7 +15136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 4
+  m_Text: Level 5
 --- !u!222 &1768944603
 CanvasRenderer:
   m_ObjectHideFlags: 0

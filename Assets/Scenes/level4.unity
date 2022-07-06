@@ -14700,7 +14700,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d5116cdb5abc3a54ab6fd6a7b02025ef, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -16168,8 +16168,8 @@ MonoBehaviour:
   speed: 6
   maxTime: 1
   Score: {fileID: 318735955}
-  Timer: 2
-  settime: 2
+  Timer: 3
+  settime: 3
   interaction1: {fileID: 1061505472}
 --- !u!58 &1559525438
 CircleCollider2D:
@@ -17478,7 +17478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8663aeaa24c4de64b9c4e16e62ea9fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 2
   _Image: {fileID: 1928510557}
   targetProcess: 100
   leftMouse: {fileID: 1389884543}
