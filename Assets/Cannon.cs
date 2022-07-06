@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Cannon : MonoBehaviour
 {
+    public GameObject Mouseleft;
     public GameObject Loadingbar;
-    // public Transform shotPoint;
-    // public Transform target;
-    // private float rotationSpeed = 10;
 
     void Start()
     {
@@ -20,4 +18,13 @@ public class Cannon : MonoBehaviour
          
     }
 
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.tag == "Player" && Loadingbar.gameObject != null)
+        {
+            Mouseleft.SetActive(true);
+            Loadingbar.SetActive(true);
+        }
+        
+    }
 }

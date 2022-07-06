@@ -15,6 +15,7 @@ public class RingProcess : MonoBehaviour
     //Process Controll
     public int targetProcess = 100;
     private float currentAmout = 0;
+    public GameObject leftMouse;
     public GameObject Munition;
     // public GameObject Munition;
 
@@ -36,7 +37,9 @@ public class RingProcess : MonoBehaviour
         if (currentAmout >= targetProcess && gameObject != null)
         {
             currentAmout = targetProcess;
+
             Destroy(gameObject);
+            leftMouse.SetActive(false);
             Munition.SetActive(true);
         }
     }

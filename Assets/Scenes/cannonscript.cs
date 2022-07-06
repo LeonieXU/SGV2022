@@ -8,27 +8,34 @@ public class cannonscript : MonoBehaviour
     public GameObject bullet;
     float timeBetween;
     public float starttimebetween;
-    public Rigidbody2D rb;
+    private bool shoot=true;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         timeBetween = starttimebetween;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timeBetween<= 0)
+        if(shoot == true)
         {
-            Instantiate(bullet,firepoint.position,firepoint.rotation);
-            timeBetween = starttimebetween;
+                if (timeBetween<= 0)
+            {
+                Instantiate(bullet,firepoint.position,firepoint.rotation);
+                AudioManager.Instance.Play("Shoot");
+                timeBetween = starttimebetween;
 
+            }
+            else
+            {
+                timeBetween -= Time.deltaTime;
+            }
         }
-        else
-        {
-            timeBetween -= Time.deltaTime;
-        }
+    }
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.tag == "Player") shoot = false;
     }
 }

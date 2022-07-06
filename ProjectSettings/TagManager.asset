@@ -10,6 +10,8 @@ TagManager:
   - End
   - IsInteraction
   - Munition
+  - Saw1
+  - Saw2
   layers:
   - Default
   - TransparentFX

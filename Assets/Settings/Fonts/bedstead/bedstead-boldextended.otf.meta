@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 94598c51137995048b0d4a751f44251b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bedstead
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 03d44baba35b377449babc9290b987db, type: 3}
+  - {fileID: 12800000, guid: e23c19acc979e8347841770cb904e3da, type: 3}
+  - {fileID: 12800000, guid: 93c144b92fe3f8d48947274087ed8f28, type: 3}
+  - {fileID: 12800000, guid: 10e7b54e9bf2af44188ee76d4f6f9390, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
